@@ -47,8 +47,8 @@
   ('main',
    'D:\\Downloads\\Dev\\fix_wiiu_batch_backup_saves\\main.py',
    'PYSOURCE'),
-  ('python310.dll', 'C:\\Python310\\python310.dll', 'BINARY'),
   ('VCRUNTIME140.dll', 'C:\\Python310\\VCRUNTIME140.dll', 'BINARY'),
+  ('python310.dll', 'C:\\Python310\\python310.dll', 'BINARY'),
   ('_multiprocessing',
    'C:\\Python310\\DLLs\\_multiprocessing.pyd',
    'EXTENSION'),
@@ -74,7 +74,7 @@
  [],
  False,
  False,
- 1643767324,
+ 1643767925,
  [('run.exe',
    'C:\\Python310\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])

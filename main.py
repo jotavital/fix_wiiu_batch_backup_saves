@@ -23,7 +23,7 @@ def menu():
 
 def prompt_root_folder():
     root = input(
-        'Absolute path to batch backups folder (without slash at the end), ex.: D:\\Downloads\\Jogos\\Wii U\\backups jogos\\2022-01-29T100416_new \n')
+        'Absolute path to batch backups folder, ex.: D:\\Downloads\\Jogos\\Wii U\\backups jogos\\2022-01-29T100416_new \n')
     root.replace('\\', '\\\\')
     root.replace('/', '\\')
 
@@ -67,7 +67,7 @@ def create_slot_folders_and_move_save_game():
     print(GREEN + 'Process finished, ' + str(number_of_moved_folders) + ' folders have been moved')
     print(YELLOW + str(number_of_already_exists_slot_folders) + ' slot folders already exists and were not created')
     print(GREEN + str(number_of_created_slot_folders) + ' new slot folders have been created')
-
+    input('Press any key to finish...')
     return 0
 
 
@@ -89,6 +89,7 @@ def rename_save_game_user_folders():
                 number_of_renamed_folders += 1
 
     print(GREEN + 'Process finished, ' + str(number_of_renamed_folders) + ' folders have been renamed')
+    input('Press any key to finish...')
     return 0
 
 
